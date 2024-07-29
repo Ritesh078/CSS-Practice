@@ -1,0 +1,90 @@
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+    /* Header and Navigation */
+    header {
+        position: relative;
+        padding: 10px; /* Adjust padding if necessary */
+    }
+
+    .logo {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .search {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .search input {
+        width: 80%;
+        margin: 0;
+    }
+    
+    .search button {
+        width: 80%;
+    }
+
+    /* Slider */
+    .slider {
+        width: 100%;
+        overflow: hidden;
+        margin-top: 20px; /* Space between header and slider */
+    }
+    
+    .slider img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    /* Card Layout */
+    .card {
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+    .cards {
+        display: flex;
+        flex-direction: row; /* Change to row for horizontal layout */
+        flex-wrap: wrap; /* Allow items to wrap onto new lines if necessary */
+        justify-content: center; /* Center items horizontally */
+    }
+    
+    .card-item {
+        margin: 10px;
+        flex: 1 1 calc(50% - 20px); /* Adjust width based on screen size */
+    }
+    
+    .card-item img {
+        height: auto;
+        max-width: 100%; /* Ensure images fit within their container */
+    }
+
+    /* Footer */
+    footer {
+        height: auto;
+        padding: 10px 0;
+    }
+}
